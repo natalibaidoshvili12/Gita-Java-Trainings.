@@ -1,7 +1,5 @@
 package mar7;
 
-import feb26.Person;
-
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -51,6 +49,43 @@ public class Main {
 //        System.out.println(sortedAsc);
 //        List<User> sortedDesc = users.stream().sorted(Comparator.comparing(p -> p.getAge())).toList().reversed();
 //        System.out.println(sortedDesc);
+
+        // 2.1
+//        int[] arr = {1, 3, 5, 2, 6, 7, 4, 6};
+//        int sum = Arrays.stream(arr).filter(e -> e % 2 == 0).sum();
+//        System.out.println(sum);
+
+        // 2.2
+//        int[] arr = {1, 11, 2, 5, 15, 1, 3, 16};
+//        long count = Arrays.stream(arr).filter(e -> e > 10).count();
+//        System.out.println(count);
+//
+        // 2.3
+//        String[] strings = {"java", "stream", "api"};
+//        String result = Arrays.stream(strings).collect(Collectors.joining("-"));
+//        System.out.println(result);
+
+        // 2.4
+//        List<Person> persons = new ArrayList<>();
+//        persons.add(new Person("firstName1", "lastName1", 23));
+//        persons.add(new Person("firstName2", "lastName2", 24));
+//        persons.add(new Person("firstName3", "lastName3", 27));
+//        persons.add(new Person("firstName4", "lastName4", 24));
+//        persons.add(new Person("firstName5", "lastName5", 37));
+//        persons.add(new Person("firstName6", "lastName6", 17));
+//        persons.add(new Person("firstName7", "lastName7", 19));
+//        Person oldest = persons.stream().max(Comparator.comparing(p -> p.getAge())).get();
+//        System.out.println(oldest);
+//        Optional<Person> optional = Optional.of(new Person());
+//        if (optional.isPresent()) {
+//            Person person = optional.get();
+//        }
+
+        // 2.5
+        int[] numbers = {1, 2, 3, 1, 1, 2, 3, 1, 2, 4, 3, 3, 4}; // -> 1, 2, 3, 4
+        long count = Arrays.stream(numbers).distinct().count();
+        System.out.println(count);
+
 
     }
 
