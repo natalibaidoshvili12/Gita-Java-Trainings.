@@ -5,6 +5,7 @@
       <root url="jar://$USER_HOME$/Downloads/jackson-core-2.21.1.jar!/" />
       <root url="jar://$USER_HOME$/Downloads/jackson-annotations-2.21.jar!/" />
       <root url="jar://$USER_HOME$/Downloads/gson-2.13.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/mysql-connector-j-9.5.0/mysql-connector-j-9.5.0.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
