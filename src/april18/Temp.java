@@ -1,4 +1,9 @@
 package april18;
 
 public class Temp {
+
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+
 }
